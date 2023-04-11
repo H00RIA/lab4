@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Source+Sans+Pro:wght@200&display=swap');
+
+**
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body
+{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1700px;
+    min-height: 1800px;
+    margin: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.container .left_Side
+{
+    position: relative;
+    background-color: #4f8076;
+    padding: 90px;
+}
+
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2
+{
+    color: white;
+    font-size: 1.5cm;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5cm;
+}
+
+.profileText h2 span
+{
+    font-size: 0.8cm;
+    font-weight: 300;
+}
+
+.contact
+{
+    padding-top: 40px;
+}
+
+.title
+{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 48px;
+
+}
+
+.contact ul
+{
+    position: relative;
+
+}
+
+.contact ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.contact ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #044543;
+}
+
+.contact ul li span
+{
+    color: white;
+    font-weight: 300;
+}
+
+.contact.education li
+{
+    margin-bottom: 15px;
+}
+
+.contact.education h5
+{
+    color: #044543;
+    font-weight: 500;
+}
+
+.contact.education h4:nth-child(2)
+{
+    color: white;
+    font-weight: 500;
+
+}
+
+.contact.education h4
+{
+    color: white;
+    font-weight: 500;
+
+}
+
+
+.container .right_Side
+{
+    position: relative;
+    background-color: white;
+    padding: 40px;
+}
+
+.aboutinfo
+{
+    margin-bottom: 50px;
+}
+
+.aboutinfo:last-child
+{
+    margin-bottom: 0;
+}
+
+.title2
+{
+    color: #4f8076;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    color: black;
+}
+.aboutinfo .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 ;
+}
+.aboutinfo .box .year_organization
+{
+    min-width: 190px;
+}
+.aboutinfo .box .year_organization h5
+{
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.aboutinfo .box .text h4
+{
+    text-transform: uppercase;
+    color: #0c6d69;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.skills .box
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
